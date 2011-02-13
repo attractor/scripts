@@ -16,4 +16,4 @@ def wrap_line(line)
   return line.chomp + ' '
 end
 
-puts softwrap(ARGV[0])
+puts wrap(ARGV[0])
